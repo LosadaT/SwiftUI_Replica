@@ -49,7 +49,7 @@ struct PriceView: View {
                                 .padding(.leading, 20.0)
                             Text(textString)
                                 .bold()
-                                .font(.title)
+                                .font(.largeTitle)
                                 .foregroundStyle(.white)
                                 .padding(.top, 90)
                                 .padding(.leading, 20)

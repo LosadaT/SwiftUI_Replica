@@ -18,29 +18,29 @@ struct StoreView: View {
                     
                     PublisherView()
                     
-                    NewView()
+                    ScrollSmall(categoryTitle: "Adicionados recentemente", games: [ "Silksong", "AC: Shadows", "Avowed", "South of Midnight", "Deltarune",], description: "")
                     
-                    ForYouView()
+                    ScrollSmall(categoryTitle: "Para você", games: ["South of Midnight", "Undertale", "Stardew Valley", "Silksong", "The Elder Scrolls V: Skyrim"], description: "")
                     
-                    RentView()
+                    ScrollSmall(categoryTitle: "Disponível para Alugar", games: ["Avowed", "Manor Lords", "It Takes Two", "The Sims 4", "Dead Cells"], description: "")
                     
-                    TrendingView()
+                    ScrollSmall(categoryTitle: "Em alta", games: ["Hades 2", "Path of Exile 2", "Dota 2", "Valorant", "Minecraft"], description: "")
                     
                     Popular2View()
                     
-                    RpgView()
+                    ScrollSmall(categoryTitle: "Jogos de RPG", games: ["The Elder Scrolls V: Skyrim", "The Witcher 3", "Baldurs Gate 3", "Avowed", "Final Fantasy XVI"], description: "")
                     
-                    SimulationView()
+                    ScrollSmall(categoryTitle: "Jogos de simulação", games: ["Cities Skylines", "Manor Lords", "Oxygen Not Included", "Two Point Hospital", "The Sims 4"], description: "")
                     
-                    RogueView()
+                    ScrollSmall(categoryTitle: "Jogos de Roguelike", games: ["Cult of the Lamb", "Dead Cells", "The Binding of Isaac", "Vampire Survivors", "Hades"], description: "")
                     
                     PriceView()
                     
-                    CasualView()
+                    ScrollSmall(categoryTitle: "Diversão em família", games: ["Stardew Valley", "It Takes Two", "Minecraft", "Overcooked 2", "Party Animals"], description: "")
                     
-                    SeriesView()
+                    ScrollMedium(categoryTitle: "Explore as séries de jogos", isLink: false, hasSubText: false, description: "", games: ["Mario", "Far Cry", "Sonic", "God of War", "Street Fighter"])
                     
-                    GenreView()
+                    ScrollGenre(genre:["RPG", "Rhythm", "Casual", "Sports", "MOBA"])
                 }
             }
             .navigationBarTitle("Loja")

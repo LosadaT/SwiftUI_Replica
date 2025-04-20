@@ -21,8 +21,7 @@ struct BannerView: View {
             HStack{
                 Text("")
                     .padding(8)
-                
-                HStack{
+                HStack(alignment: .center){
                     //ForEach que mostra a colecao de imagens
                     ForEach(keepPlayingImg, id: \.self) {
                         imageString in ZStack(alignment: .leading){
