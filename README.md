@@ -1,2 +1,5 @@
 # SwiftUI_Replica
-Primeiro projeto em SwiftUI, reproduzindo o appleTV+
+O projeto Games+ foi feito com o intuito de fazer um clone do AppleTV+, como primeiro contato com o SwiftUI. O Projeto foi desenvolvido com a [@Tamires](https://github.com/). O app foi feito 100% com SwiftUI, não possuindo nenhuma funcionalidade, buscando apenas mudar o tema do aplicativo, que foi de séries e filmes para jogos.
+
+##Telas
+
